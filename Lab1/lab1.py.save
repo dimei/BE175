@@ -1,0 +1,8 @@
+def printOddNumber(n):
+	if n%2 ==1:
+		print (n)
+	else:
+		print("not odd")
+
+for i in range(5):
+	printOddNumber(i)
